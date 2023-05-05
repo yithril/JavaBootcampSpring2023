@@ -60,6 +60,9 @@ public class LedgerScreen {
                     case 9:
                         System.out.println("Exiting ledger...");
                         runningLedger = false;
+                    default:
+                        System.out.println("That was not a valid choice, please try again.");
+                        break;
                 }
             }
         }
