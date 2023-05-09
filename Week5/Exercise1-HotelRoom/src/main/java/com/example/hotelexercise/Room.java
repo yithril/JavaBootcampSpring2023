@@ -2,7 +2,12 @@ package com.example.hotelexercise;
 
 import java.math.BigDecimal;
 
+//private variables
+//constructor(s)
+//getters and setters
+
 public class Room {
+    //Access modifiers
     private int numberOfBeds;
     private double price;
     private boolean isDirty;

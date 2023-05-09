@@ -7,6 +7,12 @@ public class Hotel {
 
         Guest secondGuest = new Guest("John", "Adams", 42);
 
-        firstGuest.getFirstName();
+        Room room = new Room(2, 100, false, false, "king");
+
+        //calling a method
+        //invoking a method
+        room.setRoomType("double");
+
+        String roomType = room.getRoomType();
     }
 }
