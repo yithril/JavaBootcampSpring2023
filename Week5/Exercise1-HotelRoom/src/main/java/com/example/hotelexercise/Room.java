@@ -7,7 +7,8 @@ import java.math.BigDecimal;
 //getters and setters
 
 public class Room {
-    //Access modifiers
+    //Access modifiers public or private
+    //properties
     private int numberOfBeds;
     private double price;
     private boolean isDirty;
@@ -23,7 +24,7 @@ public class Room {
     }
 
     public String getRoomType() {
-        return roomType;
+        return this.roomType;
     }
 
     public void setRoomType(String roomType) {
@@ -31,7 +32,7 @@ public class Room {
     }
 
     public boolean isAvailable(){
-        if(isDirty == false && isOccupied == false){
+        if(!isDirty && !isOccupied){
             return true;
         }
         else{
