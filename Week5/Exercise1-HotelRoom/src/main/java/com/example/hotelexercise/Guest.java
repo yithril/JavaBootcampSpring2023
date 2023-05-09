@@ -5,7 +5,7 @@ public class Guest {
     //Typically the things the class knows are private variables
     //These properties are backing the Guest
     //Encapsulated
-    //Back variables
+    //Backed variables
     private String firstName;
     private String lastName;
     private int age;
