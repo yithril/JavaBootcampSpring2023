@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda87878-aafb-40ec-800c-f05d3104f286" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../StaticClasses/src/main/java/com/staticclasses/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticClasses/src/main/java/com/staticclasses/NameFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticLesson/src/main/java/com/staticlesson/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticLesson/src/main/java/com/staticlesson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StaticLesson/src/main/java/com/staticlesson/Teller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Capstone-LedgerProject-InstructorVersion/transactions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Capstone-LedgerProject-InstructorVersion/transactions.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Week3/Exercise1-BedtimeStories/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week3/Exercise1-BedtimeStories/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/test/java/com/example/hotelexercise/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/test/java/com/example/hotelexercise/RoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +37,10 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="2PYvbExDpEAbSMMkdoTKftONLeG" />
@@ -41,12 +51,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
