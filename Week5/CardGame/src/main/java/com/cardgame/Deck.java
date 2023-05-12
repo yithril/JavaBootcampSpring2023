@@ -7,7 +7,7 @@ public class Deck {
 
     public Deck(){
         this.cards = new ArrayList<Card>();
-        String[] values = { "2", "3", "4", "5", "6", "7", "8", "9", "J", "Q", "K", "A" };
+        String[] values = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
         //nested for loop
         //building all the cards in the deck and adds them to the deck
         for(CardSuits suit : CardSuits.values()){ //This loops through the suits (Hearts, Clubs, Diamond, Spades)
