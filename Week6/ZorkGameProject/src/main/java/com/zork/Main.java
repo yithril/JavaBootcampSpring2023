@@ -1,2 +1,9 @@
-package com.zork;public class Main {
+package com.zork;
+
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+
+    }
 }
