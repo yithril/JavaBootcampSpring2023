@@ -30,8 +30,18 @@ public class Main {
         personList.add(futureMan);
 
         //jim, ugh, newPerson
+        //instanceof
         for(Person p : personList){
-            p.speak();
+            if(p instanceof Caveman){
+                System.out.printf("%s is a cave man! %n", p.getName());
+                System.out.printf("This class is: %s %n", p.getClass());
+            }
+            else if(p instanceof ModernMan){
+                System.out.printf("%s is a modern man! %n", p.getName());
+            }
+            else{
+                System.out.printf("%s is neither a cave man or a modern man! %n", p.getName());
+            }
         }
     }
 }
