@@ -25,6 +25,7 @@ public class Person {
         this.height = height;
     }
 
+    //Default speak method
     public void speak(){
         System.out.printf("Whatsup! My name is %s %n", this.name);
     }

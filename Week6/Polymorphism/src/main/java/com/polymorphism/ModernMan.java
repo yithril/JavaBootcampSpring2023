@@ -8,6 +8,7 @@ public class ModernMan extends Person {
         this.hasCellPhone = hasCellPhone;
     }
 
+    @Override
     public void speak(){
         System.out.println(this.getName() + " says where's my cell phone!");
     }

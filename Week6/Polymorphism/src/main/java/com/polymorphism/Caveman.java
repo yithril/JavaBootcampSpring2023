@@ -11,6 +11,8 @@ public class Caveman extends Person {
     }
 
     //override
+    //annotation
+    @Override
     public void speak(){
         System.out.println(this.getName() + " grunts!");
     }
