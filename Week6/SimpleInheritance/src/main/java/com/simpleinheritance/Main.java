@@ -1,5 +1,7 @@
 package com.simpleinheritance;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
             Dog fido = new Dog("German Shephard", "Black and Brown", true);
