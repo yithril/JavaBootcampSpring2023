@@ -11,6 +11,10 @@ public class Portfolio {
         this.assets = new ArrayList<>();
     }
 
+    public ArrayList<Asset> getAssets(){
+        return this.assets;
+    }
+
     public void add(Asset asset){
         this.assets.add(asset);
     }

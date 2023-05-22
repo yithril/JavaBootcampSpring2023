@@ -1,9 +1,14 @@
-public class Gold extends Asset {
+public class Gold extends Asset implements MarketAsset {
     private double weight;
 
     public Gold(String name, double value, double weight) {
         super(name, value);
         this.weight = weight;
+    }
+
+    @Override
+    public double getMarketValue() {
+        return this.getValue() * .8;
     }
 
     public double getValue(){

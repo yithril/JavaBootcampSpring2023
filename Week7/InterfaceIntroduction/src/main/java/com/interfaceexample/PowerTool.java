@@ -1,5 +1,5 @@
 package com.interfaceexample;
 
-public interface IPowerTool {
+public interface PowerTool {
     void repair();
 }

@@ -1,6 +1,6 @@
 package com.interfaceexample;
 
-public class Car implements IDriveable {
+public class Car implements Driveable {
     private String make;
     private String model;
 

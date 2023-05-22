@@ -8,13 +8,13 @@ public class Main {
 
         Car car = new Car("Dodge", "Charger");
 
-        ArrayList<IDriveable> thingsThatAreDriveable = new ArrayList<>();
+        ArrayList<Driveable> thingsThatAreDriveable = new ArrayList<>();
 
         //polymorphism
         thingsThatAreDriveable.add(mower);
         thingsThatAreDriveable.add(car);
 
-        for(IDriveable driveable: thingsThatAreDriveable){
+        for(Driveable driveable: thingsThatAreDriveable){
             driveable.turnOn();
         }
     }

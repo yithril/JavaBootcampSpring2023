@@ -1,4 +1,4 @@
-public class Vehicle extends Asset {
+public class Vehicle extends Asset implements MarketAsset {
     private String year;
     private String make;
     private String model;
@@ -12,8 +12,12 @@ public class Vehicle extends Asset {
         this.condition = condition;
     }
 
+    public double getMarketValue() {
+        return this.getValue() * .95;
+    }
+
     public double getValue(){
-        return this.getValue();
+        return 10000;
     }
 
     public String getYear() {

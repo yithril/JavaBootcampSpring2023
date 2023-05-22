@@ -1,6 +1,6 @@
 package com.interfaceexample;
 
-public class RidingMower implements IDriveable, IPowerTool {
+public class RidingMower implements Driveable, PowerTool {
     private String make;
     private String model;
     private String blade;
