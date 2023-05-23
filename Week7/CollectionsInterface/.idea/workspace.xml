@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ddbfb9c-3178-4d02-b1b7-26c4566598be" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Capstone2-Sandwich/SandwichShop/src/main/java/org/sandwichshop/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Capstone2-Sandwich/SandwichShop/src/main/java/org/sandwichshop/data/ToppingDataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Capstone2-Sandwich/SandwichShop/src/main/java/org/sandwichshop/enums/BreadType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Capstone2-Sandwich/SandwichShop/src/main/java/org/sandwichshop/enums/ToppingType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Capstone2-Sandwich/SandwichShop/src/main/java/org/sandwichshop/models/Sandwich.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Capstone2-Sandwich/SandwichShop/src/main/java/org/sandwichshop/models/Topping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Capstone2-Sandwich/SandwichShop/src/test/java/org/sandwichshop/models/SandwichTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfacecollections/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfacecollections/Driveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interfacecollections/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterfaceIntroduction/src/main/java/com/interfaceexample/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Capstone-LedgerProject-InstructorVersion/transactions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Capstone-LedgerProject-InstructorVersion/transactions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5/CardGame/src/main/java/com/cardgame/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5/CardGame/src/main/java/com/cardgame/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5/Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5/Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5/Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Reservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5/Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Reservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5/Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5/Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5/Exercise1-HotelRoom/src/test/java/com/example/hotelexercise/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5/Exercise1-HotelRoom/src/test/java/com/example/hotelexercise/RoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week5/StaticLesson/src/main/java/com/staticlesson/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week5/StaticLesson/src/main/java/com/staticlesson/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week6/CollectionsExamples/src/main/java/com/collectionsexamples/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week6/CollectionsExamples/src/main/java/com/collectionsexamples/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week6/CollectionsExamples/src/main/java/com/collectionsexamples/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week6/CollectionsExamples/src/main/java/com/collectionsexamples/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week6/Polymorphism/src/main/java/com/polymorphism/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week6/Polymorphism/src/main/java/com/polymorphism/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week6/PolymorphismExercise/src/main/java/com/polyexercise/Cash.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week6/PolymorphismExercise/src/main/java/com/polyexercise/Cash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceExercise1/src/main/java/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceExercise1/src/main/java/Asset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InheritanceExercise1/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InheritanceExercise1/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InterfaceIntroduction/src/main/java/com/interfaceexample/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../InterfaceIntroduction/src/main/java/com/interfaceexample/Car.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QCEnJNg7ZPudL9gvnmgG91bi16" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ddbfb9c-3178-4d02-b1b7-26c4566598be" name="Changes" comment="" />
+      <created>1684849329173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684849329173</updated>
+    </task>
+    <servers />
+  </component>
+</project>

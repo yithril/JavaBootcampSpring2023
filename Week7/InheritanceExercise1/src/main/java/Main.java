@@ -23,7 +23,6 @@ public class Main {
 
         for(Asset asset : portfolio.getAssets()){
             if(asset instanceof MarketAsset){
-                //downcast to Market Asset
                 System.out.println(((MarketAsset) asset).getMarketValue());
             }
         }

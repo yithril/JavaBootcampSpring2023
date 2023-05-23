@@ -1,4 +1,4 @@
-public abstract class Asset {
+public abstract class Asset extends Object {
     private String name;
     private double value;
 
