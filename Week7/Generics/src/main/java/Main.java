@@ -12,8 +12,5 @@ public class Main {
         HashMap<String, String> exampleHashMap = new HashMap<String, String>();
         exampleHashMap.put("bears", "live in the forest");
 
-        Labeler.label(10, "The number 10");
-        Labeler.label(exampleHashMap, "HashMap");
-        Labeler.label(true, "boolean");
     }
 }
