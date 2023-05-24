@@ -5,9 +5,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         //Example usage, generate 10000 random people
-        List<Person> personList = PersonGenerator.generateRandomPeople(10);
+        List<Person> personList = PersonGenerator.generateRandomPeople(100);
 
         Scanner scanner = new Scanner(System.in);
 
@@ -36,4 +36,6 @@ public class Main {
         //return the list
         return returnList;
     }
+
+
 }
