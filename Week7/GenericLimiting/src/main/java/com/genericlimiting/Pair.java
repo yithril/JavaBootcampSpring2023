@@ -1,6 +1,6 @@
 package com.genericlimiting;
 
-public class Pair<T extends Musician> {
+public class Pair<T extends Musician>{
     private T performer1;
     private T performer2;
 

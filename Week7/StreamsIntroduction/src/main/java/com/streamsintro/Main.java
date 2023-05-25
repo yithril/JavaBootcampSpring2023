@@ -16,7 +16,7 @@ public class Main {
         order.addItem(lineItem2);
         order.addItem(lineItem3);
 
-        //System.out.printf("Your order is %d", order.getTotal());
+        System.out.printf("Your order is %d", order.getTotal());
 
         List<String> stringList = new ArrayList<>(Arrays.asList("Bob", "Joe", "Mary", "Karl"));
 

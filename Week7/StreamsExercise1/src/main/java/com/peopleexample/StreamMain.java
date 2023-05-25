@@ -39,8 +39,8 @@ public class StreamMain {
         }
 
         //You are free from the drudgery of for loops
-        //personList.stream().forEach(person -> System.out.printf("Hi my name is %s %s, and I am from %s %n",
-                                        //person.getFirstName(), person.getLastName(), person.getHomeState()));
+        personList.stream().forEach(person -> System.out.printf("Hi my name is %s %s, and I am from %s %n",
+                                        person.getFirstName(), person.getLastName(), person.getHomeState()));
 
 
         //MAP
