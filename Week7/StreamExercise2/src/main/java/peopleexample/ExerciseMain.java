@@ -13,6 +13,8 @@ public class ExerciseMain {
         var averageAgeWithReduce = personList.stream()
                                     .map(person -> person.getAge())
                                     .reduce(0, (res, next) -> res += next) / personList.size();
+
+        System.out.println("Hey there whatsup!");
     }
 
     //ArrayList::new is a method reference
