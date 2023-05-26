@@ -4,6 +4,12 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+        //2 to the third power
+        //first number is the base, second is the exponent
+        //System.out.println(Math.pow(2, 3));
+
+        double someNumber = 1000;
+
         Caveman ugh = new Caveman("Ugh", 200, true, true);
 
         ModernMan jim = new ModernMan("Jim Everyman", 250, true);
@@ -33,14 +39,14 @@ public class Main {
         //instanceof
         for(Person p : personList){
             if(p instanceof Caveman){
-                System.out.printf("%s is a cave man! %n", p.getName());
-                System.out.printf("This class is: %s %n", p.getClass());
+                //System.out.printf("%s is a cave man! %n", p.getName());
+                //System.out.printf("This class is: %s %n", p.getClass());
             }
             else if(p instanceof ModernMan){
-                System.out.printf("%s is a modern man! %n", p.getName());
+                //System.out.printf("%s is a modern man! %n", p.getName());
             }
             else{
-                System.out.printf("%s is neither a cave man or a modern man! %n", p.getName());
+                //System.out.printf("%s is neither a cave man or a modern man! %n", p.getName());
             }
         }
     }

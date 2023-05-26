@@ -21,4 +21,52 @@ class RoomTest {
         //The number we get back should be 417
         assertEquals(417, result);
     }
+
+    @Test
+    public void roomIsAvailable_UserCanCheckIn(){
+        //Arrange
+        Room room1 = new Room(2, 100, false, false, "king");
+
+        //Act
+        room1.checkIn();
+
+        //Assert
+        assertEquals(true, room1.isDirty());
+        assertEquals(true, room1.isOccupied());
+    }
+
+    @Test
+    public void roomIsOccupied_UserCannotCheckIn(){
+        //Arrange
+        Room room1 = new Room(2, 100, false, true, "king");
+
+        //Act
+        room1.checkIn();
+
+        assertEquals(false, room1.isDirty());
+        assertEquals(true, room1.isOccupied());
+    }
+
+    @Test
+    public void roomIsOccupied_UserChecksOut_Succeeds(){
+        //Arrange
+        Room room1 = new Room(2, 100, true, true, "king");
+
+        //Act
+        room1.checkOut();
+
+        //Assert
+        assertEquals(true, room1.isDirty());
+        assertEquals(false, room1.isOccupied());
+    }
+
+    @Test
+    public void roomIsNotOccupied_RoomIsClean_NoChange(){
+        Room room1 = new Room(2, 100, false, false, "king");
+
+        room1.checkOut();
+
+        assertEquals(false, room1.isDirty());
+        assertEquals(false, room1.isOccupied());
+    }
 }

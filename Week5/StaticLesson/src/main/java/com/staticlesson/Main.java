@@ -13,5 +13,6 @@ public class Main {
 
         //globally available
         BankAccount.getInterestRate();
+
     }
 }

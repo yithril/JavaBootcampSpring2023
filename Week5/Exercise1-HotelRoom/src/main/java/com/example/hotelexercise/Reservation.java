@@ -2,8 +2,10 @@ package com.example.hotelexercise;
 
 public class Reservation {
     //private backing variables
+    //instance variables
     private int numberOfNights;
     private boolean isWeekend;
+    //Room class is a dependency
     private Room room;
 
     //make our constructor

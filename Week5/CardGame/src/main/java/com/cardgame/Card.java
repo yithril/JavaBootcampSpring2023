@@ -10,6 +10,11 @@ public class Card {
         this.value = value;
     }
 
+    public String getCardType(){
+        //TODO come back to this later
+        return null;
+    }
+
     public String getSuit(){
         if(this.isFaceUp){
             return this.suit.name();

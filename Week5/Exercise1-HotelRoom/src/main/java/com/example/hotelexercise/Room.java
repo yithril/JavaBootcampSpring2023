@@ -23,6 +23,19 @@ public class Room {
         this.roomType = roomType;
     }
 
+    public void checkIn(){
+        //Can we check in?
+        if(isAvailable()){
+            this.isOccupied = true;
+            this.isDirty = true;
+        }
+    }
+
+    public void checkOut(){
+        this.isOccupied = false;
+        this.isDirty = true;
+    }
+
     public String getRoomType() {
         return this.roomType;
     }
@@ -46,5 +59,21 @@ public class Room {
 
     public void setNumberOfBeds(int numberOfBeds){
         this.numberOfBeds = numberOfBeds;
+    }
+
+    public boolean isDirty() {
+        return isDirty;
+    }
+
+    public void setDirty(boolean dirty) {
+        isDirty = dirty;
+    }
+
+    public boolean isOccupied() {
+        return isOccupied;
+    }
+
+    public void setOccupied(boolean occupied) {
+        isOccupied = occupied;
     }
 }
