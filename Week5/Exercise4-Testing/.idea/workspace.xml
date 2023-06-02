@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8ec2d4d-a908-4344-9c62-f0f4464262f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Exercise1-HotelRoom/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise1-HotelRoom/src/main/java/com/example/hotelexercise/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise2-CreatingClasses/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise2-CreatingClasses/src/main/java/com/example/exercise2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise2-CreatingClasses/src/main/java/com/example/exercise2/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise2-CreatingClasses/src/main/java/com/example/exercise2/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise3-CreatingClasses/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week3/Exercise1-BedtimeStories/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week3/Exercise1-BedtimeStories/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="2PDNtyMkwucSQ50H8PHIDKx2tqQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.exercise4" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RoomTest.checkIn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Exercise4-Testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.exercise4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.exercise4" />
+      <option name="MAIN_CLASS_NAME" value="com.example.exercise4.RoomTest" />
+      <option name="METHOD_NAME" value="checkIn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoomTest.checkIn" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8ec2d4d-a908-4344-9c62-f0f4464262f6" name="Changes" comment="" />
+      <created>1682987910441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682987910441</updated>
+    </task>
+    <servers />
+  </component>
+</project>
