@@ -35,11 +35,6 @@ public class Product {
     public int getProductID() {
         return ProductID;
     }
-
-    public void setProductID(int productID) {
-        ProductID = productID;
-    }
-
     public String getProductName() {
         return ProductName;
     }
