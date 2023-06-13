@@ -6,6 +6,8 @@ public class Race {
     private int healthBoost;
     private int magicBoost;
     private double regenRate;
+    //Primary Key
+    private int raceID;
 
     public Race(String name, String homeland, int healthBoost, int magicBoost, double regenRate) {
         this.name = name;

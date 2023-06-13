@@ -11,6 +11,9 @@ public class Player {
     private int playerHealth;
     private int playerMagic;
 
+    //Primary Key
+    private int playerID;
+
     public String getName() {
         return name;
     }

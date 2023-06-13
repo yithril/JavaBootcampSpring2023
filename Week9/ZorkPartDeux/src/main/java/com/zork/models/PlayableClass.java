@@ -6,6 +6,9 @@ public class PlayableClass {
     private int damageBoost;
     private String name;
 
+    //Primary Key
+    private int playableClassID;
+
     public PlayableClass(int healthBoost, int magicBoost, int damageBoost, String name) {
         this.healthBoost = healthBoost;
         this.magicBoost = magicBoost;
