@@ -9,11 +9,12 @@ public class PlayableClass {
     //Primary Key
     private int playableClassID;
 
-    public PlayableClass(int healthBoost, int magicBoost, int damageBoost, String name) {
+    public PlayableClass(int healthBoost, int magicBoost, int damageBoost, String name, int playableClassID) {
         this.healthBoost = healthBoost;
         this.magicBoost = magicBoost;
         this.damageBoost = damageBoost;
         this.name = name;
+        this.playableClassID = playableClassID;
     }
 
     public int getHealthBoost() {
