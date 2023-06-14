@@ -9,12 +9,13 @@ public class Race {
     //Primary Key
     private int raceID;
 
-    public Race(String name, String homeland, int healthBoost, int magicBoost, double regenRate) {
+    public Race(String name, String homeland, int healthBoost, int magicBoost, double regenRate, int raceID) {
         this.name = name;
         this.homeland = homeland;
         this.healthBoost = healthBoost;
         this.magicBoost = magicBoost;
         this.regenRate = regenRate;
+        this.raceID = raceID;
     }
 
     public String getName() {
