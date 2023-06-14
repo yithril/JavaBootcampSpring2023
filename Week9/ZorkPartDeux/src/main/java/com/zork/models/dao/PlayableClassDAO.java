@@ -21,30 +21,28 @@ public class PlayableClassDAO {
         //this list will hold everything I get back from SQL
         List<PlayableClass> playableClassList = new ArrayList<>();
 
-        try{
-            //Make connection to database
-            Connection connection = this.dataSource.getConnection();
+        //Write the query
+        String query = "SELECT * FROM playableClass";
 
-            //Write the query
-            String query = "SELECT * FROM playableClass";
-
-            //Prepared Statement
-            PreparedStatement preparedStatement = connection.prepareStatement(query);
+        //using statement
+        //try with
+        try(Connection connection = this.dataSource.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(query);){
 
             //Result Set
-            ResultSet result = preparedStatement.executeQuery();
+            try(ResultSet result = preparedStatement.executeQuery();){
+                //Loop through every row that SQL gave back to us
+                while(result.next()){
+                    PlayableClass pc = new PlayableClass(
+                            result.getInt("healthBoost"),
+                            result.getInt("magicBoost"),
+                            result.getInt("damageBoost"),
+                            result.getString("name"),
+                            result.getInt("playableClassID")
+                    );
 
-            //Loop through every row that SQL gave back to us
-            while(result.next()){
-                PlayableClass pc = new PlayableClass(
-                        result.getInt("healthBoost"),
-                        result.getInt("magicBoost"),
-                        result.getInt("damageBoost"),
-                        result.getString("name"),
-                        result.getInt("playableClassID")
-                );
-
-                playableClassList.add(pc);
+                    playableClassList.add(pc);
+                }
             }
         }
         catch(SQLException exception){
