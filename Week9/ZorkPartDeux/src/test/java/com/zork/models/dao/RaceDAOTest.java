@@ -2,11 +2,8 @@ package com.zork.models.dao;
 
 import com.zork.models.Race;
 import org.apache.commons.dbcp2.BasicDataSource;
-import org.junit.Before;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 
