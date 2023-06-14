@@ -18,6 +18,10 @@ public class Race {
         this.raceID = raceID;
     }
 
+    public int getRaceID() {
+        return this.raceID;
+    }
+
     public String getName() {
         return name;
     }

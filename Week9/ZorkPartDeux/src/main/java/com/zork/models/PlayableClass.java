@@ -17,6 +17,9 @@ public class PlayableClass {
         this.playableClassID = playableClassID;
     }
 
+    public int getPlayableClassID(){
+        return this.playableClassID;
+    }
     public int getHealthBoost() {
         return healthBoost;
     }
