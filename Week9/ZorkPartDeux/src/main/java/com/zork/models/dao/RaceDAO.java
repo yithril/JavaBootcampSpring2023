@@ -19,6 +19,8 @@ public class RaceDAO {
         this.dataSource = dataSource;
     }
 
+    //CRUD functions
+
     //method to get all races
     public List<Race> getAllRaces(){
         List<Race> returnList = new ArrayList<>();
@@ -93,6 +95,49 @@ public class RaceDAO {
             int rows = preparedStatement.executeUpdate();
         }
         catch(SQLException sqlException){
+            sqlException.printStackTrace();
+        }
+    }
+
+    //CREATE
+    public void createRace(Race race){
+        //Write query
+        String query = "INSERT INTO race (name, homeland, healthBoost, magicBoost, regenRate)" +
+                       "VALUES(?, ?, ?, ?, ?)";
+
+        //Connect to database - Prepared Statement
+        try(Connection connection = this.dataSource.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(query)){
+
+            preparedStatement.setString(1, race.getName());
+            preparedStatement.setString(2, race.getHomeland());
+            preparedStatement.setInt(3, race.getHealthBoost());
+            preparedStatement.setInt(4, race.getMagicBoost());
+            preparedStatement.setDouble(5, race.getRegenRate());
+
+            //Execute query
+            int rows = preparedStatement.executeUpdate();
+        }
+        //Catch any errors
+        catch (SQLException sqlException){
+            sqlException.printStackTrace();
+        }
+    }
+
+    //UPDATE
+    //We have decided to just allow them to update homeland and that's it
+    public void updateRace(Race race){
+        String query = "UPDATE race SET homeland = ? WHERE raceID = ?";
+
+        try(Connection connection = this.dataSource.getConnection();
+           PreparedStatement preparedStatement = connection.prepareStatement(query)){
+
+            preparedStatement.setString(1, race.getHomeland());
+            preparedStatement.setInt(2, race.getRaceID());
+
+            int rows = preparedStatement.executeUpdate();
+        }
+        catch (SQLException sqlException){
             sqlException.printStackTrace();
         }
     }

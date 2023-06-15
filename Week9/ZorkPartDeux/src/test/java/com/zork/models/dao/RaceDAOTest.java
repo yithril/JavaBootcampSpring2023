@@ -45,4 +45,24 @@ class RaceDAOTest {
 
         assertEquals(false, result.isPresent());
     }
+
+    @Test
+    public void deleteRace_Succeeds(){
+        this.raceDAO.deleteRace(4);
+    }
+
+    @Test
+    public void createRace_Succeeds(){
+        //The id wont matter because it's not in the insert staement anyway
+        Race race = new Race("Angel", "Heaven", 50, 50, .8, 1);
+
+        this.raceDAO.createRace(race);
+    }
+
+    @Test
+    public void updateRace_Homeland_Succeeds(){
+        Race race = new Race("Angel", "Mordor", 50, 50, .8, 1);
+
+        this.raceDAO.updateRace(race);
+    }
 }
