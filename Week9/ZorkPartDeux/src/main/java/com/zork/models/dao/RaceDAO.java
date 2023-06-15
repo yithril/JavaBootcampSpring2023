@@ -79,4 +79,21 @@ public class RaceDAO {
 
         return Optional.ofNullable(race);
     }
+
+    //Delete a singular race
+    //Delete a singular row
+    public void deleteRace(int id){
+        String query = "DELETE from race WHERE raceID = ?";
+
+        try(Connection connection = this.dataSource.getConnection();
+           PreparedStatement preparedStatement = connection.prepareStatement(query)){
+
+            preparedStatement.setInt(1, id);
+
+            int rows = preparedStatement.executeUpdate();
+        }
+        catch(SQLException sqlException){
+            sqlException.printStackTrace();
+        }
+    }
 }

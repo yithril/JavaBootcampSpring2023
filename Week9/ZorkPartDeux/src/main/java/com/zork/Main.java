@@ -1,12 +1,10 @@
 package com.zork;
 
 import com.zork.controllers.RaceController;
-import com.zork.models.Player;
 import com.zork.view.PlayerCreation;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 import javax.sql.DataSource;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

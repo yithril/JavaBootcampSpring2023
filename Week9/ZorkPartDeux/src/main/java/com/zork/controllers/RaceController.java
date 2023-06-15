@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class RaceController {
+    //dependencies
     private DataSource dataSource;
     private RaceDAO raceDAO;
 
