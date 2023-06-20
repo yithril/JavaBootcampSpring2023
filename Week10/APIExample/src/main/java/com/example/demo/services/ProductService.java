@@ -19,4 +19,8 @@ public class ProductService {
     public List<Product> getAllProducts(){
         return this.productDAO.findAll();
     }
+
+    public Product createProduct(Product product){
+        return this.productDAO.save(product);
+    }
 }
