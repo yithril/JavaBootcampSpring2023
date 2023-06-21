@@ -3,6 +3,7 @@ package com.example.demo.controllers;
 import com.example.demo.models.Product;
 import com.example.demo.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,6 +22,7 @@ public class ProductController {
         return this.productService.getAllProducts();
     }
     @PostMapping("api/product")
+    @ResponseStatus(value = HttpStatus.CREATED)
     public Product createProduct(@RequestBody Product product){
         return this.productService.createProduct(product);
     }
@@ -34,8 +36,8 @@ public class ProductController {
     public Product getProductByName(@RequestParam("name") String name){
         return this.productService.getProductByName(name);
     }
-
     @DeleteMapping("api/product/{id}")
+    @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void deleteProduct(@PathVariable int id){
         this.productService.deleteProduct(id);
     }
