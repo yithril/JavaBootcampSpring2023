@@ -3,10 +3,7 @@ package com.example.demo.controllers;
 import com.example.demo.models.Product;
 import com.example.demo.services.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -23,9 +20,28 @@ public class ProductController {
     public List<Product> getAllProducts(){
         return this.productService.getAllProducts();
     }
-
     @PostMapping("api/product")
     public Product createProduct(@RequestBody Product product){
         return this.productService.createProduct(product);
+    }
+
+    @GetMapping("api/product/{id}")
+    public Product getProductById(@PathVariable int id){
+        return this.productService.getProductById(id);
+    }
+
+    @GetMapping("api/product/name")
+    public Product getProductByName(@RequestParam("name") String name){
+        return this.productService.getProductByName(name);
+    }
+
+    @DeleteMapping("api/product/{id}")
+    public void deleteProduct(@PathVariable int id){
+        this.productService.deleteProduct(id);
+    }
+
+    @PutMapping("api/product/{id}")
+    public Product updateProduct(@RequestBody Product product, @PathVariable int id){
+        return this.productService.updateProduct(product, id);
     }
 }
