@@ -51,4 +51,8 @@ public class ProductService {
 
         return this.productDAO.save(productToUpdate);
     }
+
+    public List<Product> getProductByCategoryId(int id){
+        return this.productDAO.getProductByCategoryId(id);
+    }
 }

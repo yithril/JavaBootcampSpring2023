@@ -36,6 +36,13 @@ public class ProductController {
     public Product getProductByName(@RequestParam("name") String name){
         return this.productService.getProductByName(name);
     }
+
+    //http://localhost:8080/api/product/category?id=2
+    @GetMapping("api/product/category")
+    public List<Product> getProductsByCategory(@RequestParam("id") int id){
+        return this.productService.getProductByCategoryId(id);
+    }
+
     @DeleteMapping("api/product/{id}")
     @ResponseStatus(value = HttpStatus.NO_CONTENT)
     public void deleteProduct(@PathVariable int id){

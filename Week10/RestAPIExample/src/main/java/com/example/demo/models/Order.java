@@ -5,19 +5,17 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-//Hibernate
-@Data
-@NoArgsConstructor
+import java.util.List;
+
 @AllArgsConstructor
+@NoArgsConstructor
 @Entity
-public class Product {
+@Data
+public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long Id;
-    private String name;
-    private double price;
-    private int quantityInStock;
-    private boolean isDiscounted;
 
-    private Category category;
+    @OneToMany
+    private List<Product> productList;
 }
